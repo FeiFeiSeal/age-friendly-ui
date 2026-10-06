@@ -20,7 +20,7 @@ Any errors in the summaries or recommendations are this project's responsibility
 
 This project includes material derived from the W3C documents identified below.
 Copyright in the source material remains with its respective copyright holders.
-The source notices and applicable terms must be considered separately from any
+The source notices and applicable terms must be considered separately from
 the MIT license for this project's original contributions.
 
 ## W3C sources
@@ -39,7 +39,7 @@ the MIT license for this project's original contributions.
 - Source: [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/).
 - Status: informative explanations, not additional normative requirements.
 - Source copyright on the reviewed pages: Copyright © 2026 World Wide Web Consortium.
-- Terms on all eight reviewed pages: [W3C Software and Document License, 2023](https://www.w3.org/copyright/software-license-2023/).
+- Terms on the reviewed pages: [W3C Software and Document License, 2023](https://www.w3.org/copyright/software-license-2023/).
 - Project use: interpretive summaries in `references/wcag-2.2.md`.
   The individual source pages used are linked beside the relevant SC summaries.
 
@@ -67,37 +67,42 @@ the MIT license for this project's original contributions.
 - Project use: guidance on familiarity, clarity, memory load, and recovery in
   `references/older-users.md` and `references/cognitive-rules.md`.
 
-## Implementation commentary and attribution
+## Attribution by source and license
 
-The W3C-derived summaries are provided as non-normative implementation support
-for reviewing and improving web software. They are not published for use as a
-replacement technical specification. They select and reorganize source guidance,
-paraphrase it in Chinese, and add project-specific review advice and examples.
-W3C is not responsible for this project's annotations or recommendations.
+The Chinese summaries select and reorganize source guidance and add project-specific
+implementation advice. They are non-normative annotations, not replacement specifications;
+W3C is not responsible for these annotations. Preserve each applicable notice below.
 
-Copyright © 2023 W3C®. This software or document includes material copied from
-or derived from the following W3C documents:
+### WCAG 2.2 — Document License 2023
 
-- [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
-- [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/), including
-  the individual pages linked in [the WCAG reference](references/wcag-2.2.md)
-- [Older Users and Web Accessibility: Meeting the Needs of Ageing Web Users](https://www.w3.org/WAI/older-users/)
+Copyright © 2023 W3C®. This software or document includes material copied from or
+derived from [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/).
+Source copyright © 2020–2024 World Wide Web Consortium; W3C Recommendation,
+12 December 2024. The summaries support implementation and review of web software.
+[Bundled Document License 2023](licenses/W3C-DOCUMENT-2023.txt).
 
-For Understanding WCAG and Older Users material: Copyright © 2026 World Wide
-Web Consortium. This project includes material derived from those sources,
-with the selective summaries and commentary described above. Their applicable
-terms are the [W3C Software and Document License, 2023](licenses/W3C-SOFTWARE-DOCUMENT-2023.txt).
+### Understanding and Older Users — Software and Document License 2023
 
-The preceding implementation-use notice accompanies, and does not replace,
-the source-specific copyright years and status information listed above.
-See the [W3C Document License, 2023](licenses/W3C-DOCUMENT-2023.txt).
+Copyright © 2026 World Wide Web Consortium. This software or document includes
+material derived from [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/)
+and [Older Users](https://www.w3.org/WAI/older-users/). Fourteen individual Understanding
+pages linked in the WCAG reference were checked for the source license.
+Changes are selective Chinese summaries and implementation commentary.
+[Bundled Software and Document License 2023](licenses/W3C-SOFTWARE-DOCUMENT-2023.txt).
+
+Additional background link: [Developing Websites for Older People: How WCAG 2.0 Applies](https://www.w3.org/WAI/older-users/developing/).
+This is educational guidance about WCAG 2.0, not a WCAG 2.2 specification. Its page
+links to the same Software and Document License; it is provided as further reading,
+not reproduced here.
+
+### COGA — Software and Document License 2015
 
 This software or document includes material derived from
 [Making Content Usable for People with Cognitive and Learning Disabilities](https://www.w3.org/TR/coga-usable/).
 Copyright © 2021 W3C® (MIT, ERCIM, Keio, Beihang).
-The changes are selective Chinese summaries and project-specific application
-advice, not a reproduction of the original Note.
-See the [W3C Software and Document License, 2015](licenses/W3C-SOFTWARE-DOCUMENT-2015.txt).
+Working Group Note, 29 April 2021; supplemental work in progress.
+Changes are selective Chinese summaries and project-specific application advice.
+[Bundled Software and Document License 2015](licenses/W3C-SOFTWARE-DOCUMENT-2015.txt).
 
 ## License boundaries
 

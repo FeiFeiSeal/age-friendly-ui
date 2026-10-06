@@ -29,6 +29,8 @@ Confirmed — 在假想輸入中三者同色同權重；點擊後行為未知。
 MEDIUM — 可讀性風險，尚未確認 WCAG 違規。
 ### Type
 WCAG Requirement
+### WCAG finding status
+Needs verification
 ### Evidence
 Potential — 僅知道畫面中文字偏淡，缺有效色值、字級與呈現條件，不能宣稱 contrast ratio。
 ### Why it matters
@@ -39,3 +41,5 @@ Potential — 僅知道畫面中文字偏淡，缺有效色值、字級與呈現
 [SC 1.4.3 Contrast (Minimum), AA](https://www.w3.org/TR/WCAG22/#contrast-minimum)。目前未證明門檻未達。
 
 未驗證：hit area、鍵盤與 focus、loading／success／error／empty／warning／processing、刪除可逆性。不能因截圖未展示就報告這些功能不存在。
+
+本例統計：1 個已確認 UX finding、1 個 Potential WCAG 風險、0 個已確認 WCAG 違規；未呈現狀態列 Not assessable，不逐項灌入 finding 數。

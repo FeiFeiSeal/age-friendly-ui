@@ -10,6 +10,8 @@
 HIGH — 依規格已確認與 AA 合規所需的 A 級要求衝突。
 ### Type
 WCAG Requirement
+### WCAG finding status
+Confirmed violation（僅限本例明示的證據範圍）
 ### Evidence
 Confirmed（規格層面）— 明確要求重填且排除了本例的必要、安全與失效例外；未驗證實作。
 ### Why it matters

@@ -30,8 +30,9 @@ Findings distinguish between:
 - **Age-friendly Recommendation** — A usability recommendation
   informed by older users’ needs, rather than a mandatory WCAG threshold.
 
-For example, an approximately 18px body-text size is a design starting
-point, not a WCAG requirement.
+For example, an approximately 18px body-text size is this skill's heuristic starting
+point to validate with target users, not a WCAG requirement or a universal
+research finding.
 
 Issues are prioritized as **HIGH**, **MEDIUM**, or **LOW**.
 Severity describes review priority; it is separate from WCAG
@@ -45,6 +46,10 @@ directory, keeping its references and examples together.
 For Codex, use `$CODEX_HOME/skills/`, or `~/.codex/skills/` when
 `CODEX_HOME` is not set.
 
+For other Agent Skills-compatible tools, use their documented skill directory
+and keep the entire package together. `agents/openai.yaml` is Codex-specific
+UI metadata; the core instructions are in [SKILL.md](SKILL.md).
+
 Example prompt:
 
 > Use $age-friendly-ui to review this admin interface for older adults.
@@ -57,6 +62,7 @@ Each finding includes:
 - Severity
 - Type
 - Evidence
+- WCAG finding status (for WCAG findings)
 - Why it matters
 - Recommendation
 - Reference
@@ -85,13 +91,13 @@ WAI resources and supplemental guidance inform the design recommendations.
 
 ## Status and limitations
 
-**v0.1.0 — Initial release**
+**v0.1.1 — Review workflow refinements**
 
 The README is in English; skill instructions, references, and examples
 are primarily in Traditional Chinese.
 
 The skill includes four review modes and illustrative examples for
-screenshots, specifications, and frontend code.
+screenshots, redesigns, specifications, and frontend code.
 
 Screenshot reviews cannot confirm keyboard behavior, accessible
 semantics, actual click targets, or unshown interaction states.

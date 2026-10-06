@@ -14,6 +14,8 @@ export function SaveAction({ onSave }: { onSave: () => void }) {
 HIGH — 鍵盤使用者無法啟動主要任務。
 ### Type
 WCAG Requirement
+### WCAG finding status
+Confirmed violation（僅限本例明示的證據範圍）
 ### Evidence
 Confirmed（所提供完整片段範圍）— 沒有可聚焦元素、鍵盤操作或等效入口。
 ### Why it matters
