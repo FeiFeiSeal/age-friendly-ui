@@ -21,7 +21,7 @@ Any errors in the summaries or recommendations are this project's responsibility
 This project includes material derived from the W3C documents identified below.
 Copyright in the source material remains with its respective copyright holders.
 The source notices and applicable terms must be considered separately from any
-license selected for this project's original contributions.
+the MIT license for this project's original contributions.
 
 ## W3C sources
 
@@ -38,10 +38,8 @@ license selected for this project's original contributions.
 
 - Source: [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/).
 - Status: informative explanations, not additional normative requirements.
-- Publisher/copyright holder: World Wide Web Consortium; retain the copyright
-  notice and date supplied on each individual source page when reproducing it.
-- Terms: [W3C Document License](https://www.w3.org/copyright/document-license/),
-  subject to any different terms expressly stated on an individual page.
+- Source copyright on the reviewed pages: Copyright © 2026 World Wide Web Consortium.
+- Terms on all eight reviewed pages: [W3C Software and Document License, 2023](https://www.w3.org/copyright/software-license-2023/).
 - Project use: interpretive summaries in `references/wcag-2.2.md`.
   The individual source pages used are linked beside the relevant SC summaries.
 
@@ -50,8 +48,9 @@ license selected for this project's original contributions.
 - Source: [WAI Older Users](https://www.w3.org/WAI/older-users/).
 - Status: WAI educational resource; updated 20 November 2025; first published 2010.
 - Source footer at review: Copyright © 2026 World Wide Web Consortium.
-- Terms: [W3C Document License](https://www.w3.org/copyright/document-license/)
-  and [WAI material-use guidance](https://www.w3.org/WAI/about/using-wai-material/).
+- Terms linked by this page: [W3C Software and Document License, 2023](https://www.w3.org/copyright/software-license-2023/).
+  See also [WAI material-use guidance](https://www.w3.org/WAI/about/using-wai-material/);
+  use the license actually linked by this source rather than assuming the default.
 - Project use: older-user context in `references/older-users.md` and design
   considerations in the visual, interaction, and cognitive references.
 
@@ -68,27 +67,58 @@ license selected for this project's original contributions.
 - Project use: guidance on familiarity, clarity, memory load, and recovery in
   `references/older-users.md` and `references/cognitive-rules.md`.
 
-## License boundaries and unresolved permission
+## Implementation commentary and attribution
 
-This notice provides attribution and identifies third-party material; it is not
-itself a license, a grant of permission from W3C, or confirmation that every
-paraphrase or derivative use is authorized. W3C document terms include conditions
-on reproduction and derivative works. Merely linking to a source, translating
-it, or adding this notice does not establish compliance with those terms.
+The W3C-derived summaries are provided as non-normative implementation support
+for reviewing and improving web software. They are not published for use as a
+replacement technical specification. They select and reorganize source guidance,
+paraphrase it in Chinese, and add project-specific review advice and examples.
+W3C is not responsible for this project's annotations or recommendations.
 
-No project-wide open-source license has yet been selected. Any future license
-for original project contributions must not purport to relicense W3C material,
-third-party trademarks, or other rights the project does not control.
+Copyright © 2023 W3C®. This software or document includes material copied from
+or derived from the following W3C documents:
 
-Before public release, confirm the applicable terms for the summarized material
-and whether this distribution falls within the permitted implementation-related
-uses; obtain clarification or permission from W3C where needed. Include any
-additional notices or license text required by the applicable terms.
-This pending review has not been completed by adding this file.
+- [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
+- [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/), including
+  the individual pages linked in [the WCAG reference](references/wcag-2.2.md)
+- [Older Users and Web Accessibility: Meeting the Needs of Ageing Web Users](https://www.w3.org/WAI/older-users/)
+
+For Understanding WCAG and Older Users material: Copyright © 2026 World Wide
+Web Consortium. This project includes material derived from those sources,
+with the selective summaries and commentary described above. Their applicable
+terms are the [W3C Software and Document License, 2023](licenses/W3C-SOFTWARE-DOCUMENT-2023.txt).
+
+The preceding implementation-use notice accompanies, and does not replace,
+the source-specific copyright years and status information listed above.
+See the [W3C Document License, 2023](licenses/W3C-DOCUMENT-2023.txt).
+
+This software or document includes material derived from
+[Making Content Usable for People with Cognitive and Learning Disabilities](https://www.w3.org/TR/coga-usable/).
+Copyright © 2021 W3C® (MIT, ERCIM, Keio, Beihang).
+The changes are selective Chinese summaries and project-specific application
+advice, not a reproduction of the original Note.
+See the [W3C Software and Document License, 2015](licenses/W3C-SOFTWARE-DOCUMENT-2015.txt).
+
+## License boundaries
+
+Original contributions that this project is entitled to license are provided
+under the [MIT License](LICENSE), copyright (c) 2026 FeiFeiSeal.
+The MIT grant excludes W3C material, third-party trademarks, and any rights
+the project does not control. The W3C-derived portions remain subject to the
+applicable terms above. Preserve these notices and bundled license texts when
+redistributing those portions.
+
+The project relies on the applicable published license terms, including the
+Document License's implementation-related provision, rather than claiming
+individual approval from W3C. No such approval has been requested or obtained.
+The notices do not authorize use beyond those terms or establish legal or
+accessibility certification. Different uses, such as publishing a replacement
+specification or presenting a translation as authorized, require separate review.
 
 ## 中文摘要
 
 本 Skill 為獨立專案，並非 W3C 官方文件、授權翻譯或認證工具，也未獲 W3C／WAI 背書。
-內容含本專案編寫的操作指引、範例，以及參考 W3C 文件的摘要與中文改寫；正式規範以來源文件為準。
-第三方資料的權利及授權不因納入本專案而改變。本聲明不等於取得改作授權或完成法律審查。
-公開發佈前仍須確認摘要與散布方式適用的授權條件；本專案目前尚未選定開源授權。
+W3C 摘要是協助 Web 軟體實作與審查的非規範性解說；正式規範及例外以來源文件為準。
+本專案有權授權的原創內容採 MIT（署名 FeiFeiSeal），第三方資料保留各自權利與授權。
+散布相關內容時請保留來源、版權、文件狀態及隨附授權文字。
+本專案依公開授權條款處理，不宣稱曾取得 W3C 個別核准，也不以取得回信作為發佈流程。

@@ -1,6 +1,7 @@
 ---
 name: age-friendly-ui
 description: Design, incrementally redesign, and review Web or administrative interfaces for older users, using screenshots, UI specifications, or frontend code. Use when age-friendly usability is requested; distinguish WCAG 2.2 requirements from recommendations about clarity, familiarity, feedback, and recovery. Not a general accessibility certification audit.
+license: "MIT for original contributions; third-party material excluded. See LICENSE and THIRD_PARTY_NOTICES.md."
 metadata:
   version: "0.1.0"
 ---

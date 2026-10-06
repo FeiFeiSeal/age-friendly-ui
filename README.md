@@ -87,6 +87,9 @@ WAI resources and supplemental guidance inform the design recommendations.
 
 **v0.1.0 — Initial release**
 
+The README is in English; skill instructions, references, and examples
+are primarily in Traditional Chinese.
+
 The skill includes four review modes and illustrative examples for
 screenshots, specifications, and frontend code.
 
@@ -111,7 +114,14 @@ material remains subject to its applicable terms and is not relicensed
 by this project.
 
 See [Third-party notices](THIRD_PARTY_NOTICES.md) for sources, copyright
-attribution, document status, and license boundaries. No project-wide
-open-source license has yet been selected. Permission review for the
-summarized material remains pending before public release; adding these
-notices does not establish authorization.
+attribution, document status, license boundaries, and bundled W3C license texts.
+
+## License
+
+Original contributions that the project is entitled to license are available
+under the [MIT License](LICENSE), copyright (c) 2026 FeiFeiSeal.
+
+W3C and other third-party material is excluded from that MIT grant and remains
+subject to its own terms. See [Third-party notices](THIRD_PARTY_NOTICES.md)
+for attribution and scope. Preserve the applicable third-party notices and
+license texts when redistributing the corresponding material.
