@@ -1,3 +1,5 @@
+[![skills.sh](https://skills.sh/b/FeiFeiSeal/age-friendly-ui)](https://skills.sh/FeiFeiSeal/age-friendly-ui)
+
 # Age-Friendly UI
 
 An Agent Skill for designing, reviewing, and incrementally improving
